@@ -1,14 +1,13 @@
-#!/bin/bash
-[A[C[C[C[C[C[C[C#include <>[Dstdio.h>
+#include <stdio.h>
 
 /**
-*main -Entry point
-*[A[3~[3~[3~[3~[3~[3~[Cmain -Entry point[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D
-* Return: Always 0()[DSuccess[C[D)
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 
-int main()[Dvoid)
+int main(void)
 {
-        puts("\"Programming is like building a multilingual puzzle");
-        return ()[D0)[0[C;
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
