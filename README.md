@@ -1,1 +1,1 @@
-Starting in C with ALX
+0x02. C - Functions, nested loops
