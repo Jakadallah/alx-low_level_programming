@@ -1,30 +1,10 @@
+carrie@ubuntu:/debugging$ cat main.h
+#ifndef MAIN_H
 #define MAIN_H
 
-/* _putchar.c */
-int _putchar(char);
+#include <stdio.h>
 
-/*10 x alphabet */
-void print_alphabet(void);
+void positive_or_negative(int i);
 
-/* 2-print_alphabet_x10.c */
-void print_alphabet_x10(void);
-
-int _islower(int c);
-
-int _isalpha(int n);
-
-int print_sign(int n);
-
-int _abs(int n);
-
-int print_last_digit(int n);
-
-void jack_bauer(void);
-
-void times_table(void);
-
-int add(int a, int b);
-
-void print_to_98(int n);
-
-void print_times_table(int n);
+#endif /* MAIN_H */
+carrie@ubuntu:/debugging$ 
