@@ -1,18 +1,3 @@
-[A[Bcarrie@ubuntu:/debugging$ cat main.c
-#include "main.h"
-
-/**
-* main - tests function that prints if integer is positive or negative
-* Return: 0
-*/
-
-int main(void)
-{
-        int i;
-
-        i = 98;
-        positive_or_negative(i);
-
-        return (0);
-}
-carrie@ubuntu:/debugging$
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 positive_or_negative.c main.c
+carrie@ubuntu:/debugging$ ./a.out
+98 is positive
