@@ -1,4 +1,4 @@
-[A[A[A[A[A[A[A[A[A[A[B[B[B[B[B[B[B[B[B[B[B[B#include "main.h"
+#include "main.h"
 
 /**
  * _strlen - returns the length of a string.
