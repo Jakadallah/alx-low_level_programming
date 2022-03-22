@@ -1,0 +1,15 @@
+void reset_to_98(int *n);
+void swap_init(int *a, int *b);
+int[A[C[C[C[C[C[C[C[C[C[[[[3~[3~[3~[3~[3~[3~[3~[3~[3~[3n[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnt(int *a, int *b);[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D _strlen(char *s);
+void puts(char *str);[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[[C[C[C[A[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvoid reset_to_98(int *n);
+void swap_int(int *a, int *b);
+int _strlen(char *s);
+void _puts(char *str);
+void print_rev(char *s);
+void rev_string(char *s);
+void puts2(char *str);
+void puts_half(char *str);
+void _putchar(char);
+void print_array(int *a, int n);
+int _atoi(char *s);
+char *_strcpy(char *dest, char *src);
