@@ -1,32 +1,36 @@
-#include 'main.h"
+#include "main.h"
 
 /**
- * _atoi _ converts a string into an interger
+ * _atoi - converts a string to an integer.
  * @s: parameter passed
+ *
+ * Return: 0 as success
  */
+
 int _atoi(char *s)
 {
-       unsigned int count = 0, size = 0, oi = 0, pn = 1, m= 1[D[D[D = 1, i;
-       while (*(s + count) != '\0')
-       {
-              if (size > 0 && (*(s + count) < '0' || *(s + count) > '9'))
+	unsigned int count = 0, size = 0, oi = 0, pn = 1, m = 1, i;
 
-[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbreak;
-[C[C[C[C[C[C[C[C[C[C[C[C[C[Cif (*(s + count) ==''[D_'[D[D[D '_')
-                      pn *= -1;
-              if ((*(s + count) >= '0') && (*(s + count) <= '9'))
-              {
-                     if (size > 0)
-[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm *= 10;
-                         [D[D[D[Dsize++;
-[C[C[C[C[C[C[C[C[C[C[C[C[C[C}
-              count++;
-        }
+	while (*(s + count) != '\0')
+	{
+		if (size > 0 && (*(s + count) < '0' || *(s + count) > '9'))
+			break;
+		if (*(s + count) == '-')
+			pn *= -1;
 
-        for (i = count -size; i < count; i++)
-        {
-                oi = oi + ((*(s + i) - 48) * m);
-                m /= 10;
-        }
-        return (oi * pn);
+		if ((*(s + count) >= '0') && (*(s + count) <= '9'))
+		{
+			if (size > 0)
+				m *= 10;
+			size++;
+		}
+		count++;
+	}
+
+	for (i = count - size; i < count; i++)
+	{
+		oi = oi + ((*(s + i) - 48) * m);
+		m /= 10;
+	}
+	return (oi * pn);
 }
