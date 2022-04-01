@@ -1,0 +1,9 @@
+gcc -wall-pedantic[D[D[D[D[D[D[D[D[D[D[D[W[C[C[C[C[C[C[C[C[C[C[C[C -Werror -Wextra
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[#!/bin/bash
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 -c *.c
+
+ar -rc libmy.a *.o
+
+ar -t libmy.a
+
+ranlib libmy.a
