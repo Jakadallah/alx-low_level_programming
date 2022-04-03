@@ -1,1 +1,0 @@
- gcc -c -Wall -Werner -Wextra [yougcc -c -Wall -Werner -Wextra [0-isupper.c] -o [0-isupper.o]
